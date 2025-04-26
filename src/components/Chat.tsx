@@ -9,8 +9,8 @@ export default function ChatWelcome() {
       <div className="absolute right-4 top-4  bg-blue-100 hover:bg-blue-200 text-blue-500 p-1 rounded-full">
         <ChevronUp className="w-4 h-4" />
       </div>
-      <div className="relative mb-5">
-        <Image alt="logo" src="/images/logo.svg" height={35} width={64} />
+      <div className="relative mb-5 w-16 aspect-video">
+        <Image alt="logo" src="/images/logo.svg" fill className="object-contain"/>
       </div>
       <h1 className="text-3xl font-semibold text-gray-800 mb-8">
         Welcome to the AI Chat Assistant
